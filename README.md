@@ -1,15 +1,14 @@
-# `</>` M A R K E R `</>`
-_The minmal markdown viewer/editor_
-![marker-logo-v00](./marker-logo-v01.png)
+# `</>` M A R K - R I G H T `</>`
+_The ultra lightweight mark`down` viewer/editor_
 
 ## TLDR;
-Whole editor is written in a single HTML without compile
-Minimal functionality are included: 
-A most important one is a limited HTML/JS/JSDoc/JSX syntax highlight.
+This editor and markdown viewer is heavy under construction.
+A most important functionality is a limited HTML/JS/JSDoc/JSX syntax highlight.
+The development process are follow the pureHTML: Whole editor is written in a single HTML
+It can use without compile. 
+Don't save or load data, just the good old copy/paste or hand edit mode are working.
 
-Also have a special:
-
-## Code running capabilities
+## Bonus feature : running capabilities `don't exist in a standard markdown
 ```
 // if after code block coding tag write ... then run it.
 const dice = (side = 6) => Math.random() * side | 0;
@@ -18,7 +17,8 @@ return dice();
 ```
 
 ## Just past your code to `<text-box>` or free to edit.
-Whole of code a pure HTML file so don't have any dependecy expect a CDN.Tailwind 
+
+The only dependency in code is: CDN.Tailwind 
 ```
 <script src="https://cdn.tailwindcss.com"></script>
 ```
