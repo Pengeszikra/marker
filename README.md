@@ -1,6 +1,6 @@
 # `</>` M A R K E R `</>`
 _The minmal markdown viewer/editor_
-![marker-logo-v00](https://cdn.midjourney.com/88569a60-7e4a-4931-9904-d8da2e44dc15/0_2.png)
+![marker-logo-v00](./marker-logo-v00.png)
 
 ## TLDR;
 Minimal functionality are included: 
