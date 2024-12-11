@@ -3,6 +3,7 @@ _The minmal markdown viewer/editor_
 ![marker-logo-v00](./marker-logo-v01.png)
 
 ## TLDR;
+Whole editor is written in a single HTML without compile
 Minimal functionality are included: 
 A most important one is a limited HTML/JS/JSDoc/JSX syntax highlight.
 
