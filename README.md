@@ -1,6 +1,8 @@
 # `</>` M A R K E R - E D I T `</>`
 _The ultra lightweight markdown viewer/editor_
 
+[try it the marker-edit (loaded the README.MD): ](https://marker-ldwu.vercel.app/)
+
 ## TLDR;
 This editor and markdown viewer is heavy under construction.
 A most important functionality is a limited HTML/JS/JSDoc/JSX syntax highlight.
@@ -14,7 +16,7 @@ Don't save or load data, just the good old copy/paste or hand edit mode are work
 const dice = (side = 6) => Math.random() * side | 0;
 
 return dice();
-```
+```...
 
 ## Just past your code to `<text-box>` or free to edit.
 
