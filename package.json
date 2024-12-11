@@ -3,6 +3,25 @@
   "description": "pure HTML markdown editor",
   "version": "0.0.1",
   "type": "module",
+  "author": "Peter Vivo <vivo.peter@protonmail.com>",
+  "license": "MIT",
+  "main": "index.html",
+  "module": "index.html",
+  "umd:module": "index.html",
+  "types": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pengeszikra/marker"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "markdown",
+    "syntax highlight",
+    "editor",
+    "pure HTML"
+  ],  
   "scripts": {
     "start": "vite --port 8080",
     "lint": "eslint ."
