@@ -1,6 +1,6 @@
 # `</>` M A R K E R `</>`
 _The minmal markdown viewer/editor_
-![marker-logo-v00](./marker-logo-v00.png)
+![marker-logo-v00](./marker-logo-v01.png)
 
 ## TLDR;
 Minimal functionality are included: 
