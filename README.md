@@ -1,4 +1,4 @@
-# `</>` M A R K - R `</>`
+# `</>` M A R K E R - E D I T `</>`
 _The ultra lightweight markdown viewer/editor_
 
 ## TLDR;

@@ -1,7 +1,7 @@
 {
-  "name": "mark-r",
+  "name": "marker-edit",
   "description": "pure HTML markdown editor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "author": "Peter Vivo <vivo.peter@protonmail.com>",
   "license": "MIT",
