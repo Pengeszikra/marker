@@ -1,4 +1,4 @@
-# `<>` M A R K E R `<>`
+# `</>` M A R K E R `</>`
 _The minmal markdown viewer/editor_
 
 ## Minimal functionalities
@@ -20,3 +20,5 @@ Whole of code a pure HTML file so don't have any dependecy expect a CDN.Tailwind
 ```
 
 _bring me a coffe_
+
+

@@ -1,4 +1,11 @@
-<script src="https://cdn.tailwindcss.com"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M A R K E R</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 <script>
     //   M A R K E R - T H E - C O N S T R U C T O R  \\
    //                                                  \\
@@ -77,8 +84,6 @@
         "`": "&#96",
         "|": "|"
       }[specialCharacter]));
-
-  globalThis.safeEncode = encodCodeBlockToSafeHtml;
 
   /** @type {(safeCode:string) => string} */
   const syntaxHighlight = safeCode => {
@@ -207,7 +212,6 @@
     constructor() {
       super();
       const source = document.querySelector('textarea').value;
-      globalThis.so = source;
       this.innerHTML = markdownParser(source);
     }
 
@@ -219,8 +223,6 @@
   const markdownView = document.querySelector('markdown-view');
   const markdownEditor = document.querySelector('textarea');
 
-  globalThis.marker = markdownView.changeContent
-
   fetch('./README.md').then(r => r.text()).then(md => markdownView.changeContent(md))
 
   markdownEditor.addEventListener("input", e => {
@@ -228,3 +230,4 @@
     markdownView.changeContent(e?.target?.value);
   })
 </script>
+</html>
