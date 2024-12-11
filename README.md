@@ -1,5 +1,5 @@
-# `</>` M A R K - R I G H T `</>`
-_The ultra lightweight mark`down` viewer/editor_
+# `</>` M A R K - R `</>`
+_The ultra lightweight markdown viewer/editor_
 
 ## TLDR;
 This editor and markdown viewer is heavy under construction.
